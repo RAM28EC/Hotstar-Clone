@@ -155,7 +155,7 @@ sh script2.sh
    - Create a new pipeline job in Jenkins.
    - Configure the pipeline script to provision an EKS cluster using Terraform.
      
-  ''' groovy Pipeline
+  ```groovy 
   pipeline {
        agent any
        stages {
@@ -199,7 +199,7 @@ sh script2.sh
            }
        }
    }
-   '''
+   ```
 
 4. **Run the Pipeline Job:**
    - Save and run the pipeline job in Jenkins.
@@ -231,7 +231,7 @@ sh script2.sh
 4. **Create Jenkins Pipeline Job for Deployment to Kubernetes:**
    - Create a new pipeline job in Jenkins.
    - Configure the pipeline script to deploy the application to a Kubernetes cluster.
-'''groovy pipeline
+```groovy 
  pipeline {
     agent any
     tools {
@@ -331,7 +331,7 @@ sh script2.sh
 
     }
 }
-'''
+```
 5. **Run the Pipeline Job:**
    - Save and run the pipeline job in Jenkins.
 
